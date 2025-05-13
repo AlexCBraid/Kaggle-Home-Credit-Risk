@@ -16,8 +16,8 @@ In this project, I developed a machine learning model to assess credit risk. I w
 The solution involves the following key steps:
 
 1.  **Data Preprocessing**: Cleaning, transforming, and merging the various data sources.
-2.  **Feature Engineering**: Creating new features to improve model performance.  Key features included credit-to-annuity ratio and aggregated information from other data sources.  I also experimented with network features.
-3.  **Model Development**: Training a LightGBM model to predict loan default.  I experimented with a two-stage modeling approach and ensembling.
+2.  **Feature Engineering**: Creating new features to improve model performance. Key features included credit-to-annuity ratio and aggregated information from other data sources. I also experimented with network features.
+3.  **Model Development**: Training a LightGBM model to predict loan default. I experimented with a two-stage modeling approach and ensembling.
 4.  **Model Validation**: Using cross-validation to evaluate model performance and mitigate overfitting.
 
 ## Key Findings
@@ -37,7 +37,12 @@ The solution involves the following key steps:
 
 ## Results
 
-My best solution was an ensemble of two models.
+My best solution was an ensemble of two models. The repository includes the code for both the basic model and the two-stage model.
+
+## Files Included
+* `Kaggle_home_credit_Application_Network.ipynb`: Jupyter Notebook for the two-stage model (application model).
+* `kaggle_home_credit_default_risk.ipynb`: Jupyter Notebook for the first basic model.
+* `README.md`: Description of the project.
 
 ## Future Work
 
